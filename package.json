@@ -1,0 +1,71 @@
+{
+  "_args": [
+    [
+      "fis-parser-jade-to-html@git+https://github.com/zjleon/fis33-parser-jade-to-html.git",
+      "/home/j/KuaiPan/webAnalytic/testSite"
+    ]
+  ],
+  "_from": "git+https://github.com/zjleon/fis3-parser-jade-to-html.git",
+  "_id": "fis-parser-jade-to-html@0.0.1",
+  "_inCache": true,
+  "_location": "/fis-parser-jade-to-html",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/zjleon/fis3-parser-jade-to-html/master/package.json",
+      "gitUrl": "git://github.com/zjleon/fis3-parser-jade-to-html.git",
+      "httpsUrl": "git+https://github.com/zjleon/fis3-parser-jade-to-html.git",
+      "shortcut": "github:zjleon/fis3-parser-jade-to-html",
+      "ssh": "git@github.com:zjleon/fis3-parser-jade-to-html.git",
+      "sshUrl": "git+ssh://git@github.com/zjleon/fis3-parser-jade-to-html.git",
+      "type": "github"
+    },
+    "name": "fis-parser-jade-to-html",
+    "raw": "fis-parser-jade-to-html@git+https://github.com/zjleon/fis3-parser-jade-to-html.git",
+    "rawSpec": "git+https://github.com/zjleon/fis3-parser-jade-to-html.git",
+    "scope": null,
+    "spec": "git+https://github.com/zjleon/fis3-parser-jade-to-html.git",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "git+https://github.com/zjleon/fis3-parser-jade-to-html.git#bf3482bee372a2b4dc1afa894416d8a7af6db143",
+  "_shasum": "8c2affd558ef1ee14588a38ad7600f69aa64f8fc",
+  "_shrinkwrap": null,
+  "_spec": "fis-parser-jade-to-html@git+https://github.com/zjleon/fis3-parser-jade-to-html.git",
+  "_where": "/home/j/KuaiPan/webAnalytic/testSite",
+  "author": {
+    "email": "fis@baidu.com",
+    "name": "FIS Team"
+  },
+  "bugs": {
+    "url": "https://github.com/zjleon/fis3-parser-jade-to-html/issues"
+  },
+  "dependencies": {
+    "jade-to-html": ">1.4.2"
+  },
+  "description": "A parser for fis to compile jade-to-html file.",
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "gitHead": "bf3482bee372a2b4dc1afa894416d8a7af6db143",
+  "homepage": "https://github.com/zjleon/fis3-parser-jade-to-html",
+  "installable": true,
+  "keywords": [
+    "fis",
+    "jade-to-html"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "fis-parser-jade-to-html",
+  "optionalDependencies": {},
+  "readme": "fis-parser-jade-to-html\n===============\n\nA parser for fis to compile jade-to-html file.\n\n## 功能\n\n - 将jade-to-html模版编译为HTML\n\n## 用法\n\n### 安装插件\n\n    $ npm install -g fis-parser-jade-to-html\n    $ vi path/to/project/fis-conf.js\n\n### 启用插件\n\n```javascript\n//file : path/to/project/fis-conf.js\n\n//使用fis-parser-jade-to-html插件编译jade-to-html文件\nfis.config.set('modules.parser.jade-to-html', 'jade-to-html');\n//jade-to-html文件经过编译后输出为html文件\nfis.config.set('roadmap.ext.jade-to-html', 'html');\n```\n\n### 添加自定义filter与jade-to-html编译设置\n\n```javascript\nvar jade-to-htmlConf = {\n\tfilters : {\n\t\tjade-to-htmlsrc : require('jade-to-html-highlighter')\n\t},\n  pretty  : true\n};\n\nfis.config.set('settings.parser.jade-to-html', jade-to-htmlConf);\n```",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjleon/fis3-parser-jade-to-html.git"
+  },
+  "version": "0.0.12"
+}
