@@ -6,7 +6,7 @@
     ]
   ],
   "_from": "git+https://github.com/zjleon/fis3-parser-jade-to-html.git",
-  "_id": "fis-parser-jade-to-html@0.0.2",
+  "_id": "fis-parser-jade-to-html@0.0.1",
   "_inCache": true,
   "_location": "/fis-parser-jade-to-html",
   "_phantomChildren": {},
@@ -67,5 +67,5 @@
     "type": "git",
     "url": "git+https://github.com/zjleon/fis3-parser-jade-to-html.git"
   },
-  "version": "0.0.2"
+  "version": "0.0.1"
 }
