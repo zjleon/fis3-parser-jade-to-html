@@ -13,7 +13,7 @@ Output html
 
 ### 安装插件
 
-    $ npm ssssss--save-dev
+    $ npm ssssss--save-dev-from-test-1
 
 ### 启用插件
 
@@ -27,5 +27,3 @@ fis.match('test.jade', {
 	rExt: 'html'
 })
 ```
-
-test_merge_fork
