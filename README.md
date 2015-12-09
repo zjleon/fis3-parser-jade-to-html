@@ -13,7 +13,7 @@ Output html
 
 ### 安装插件
 
-    $ npm install fiaaaaser-jade --save-dev
+    $ npm ssssss--save-dev-from-test-1
 
 ### 启用插件
 
