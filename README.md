@@ -13,7 +13,7 @@ Output html
 
 ### 安装插件
 
-    $ npm install fis-parser-jade --save-dev
+    $ npm install fiaaaaser-jade --save-dev
 
 ### 启用插件
 
