@@ -27,3 +27,5 @@ fis.match('test.jade', {
 	rExt: 'html'
 })
 ```
+
+test_merge_fork
