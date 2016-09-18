@@ -49,7 +49,7 @@ module.exports = function( content, file, conf ) {
           fullMatch: tmp1[ 0 ],
           type: tmp1[ 1 ],
           relativePath: tmp1[ 3 ],
-          absolutePath: path.resolve( currentPath, tmp1[ 3 ] )
+          absolutePath: path.resolve( currentPath, tmp1[ 3 ] ).replace(/\\/g, '')
         } )
         // fis.log.info(resourceInFile);
     } while ( tmp1.index < content.length - 1 )
